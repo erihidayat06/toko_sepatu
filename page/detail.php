@@ -164,7 +164,6 @@ $lokasi ="https://api.whatsapp.com/send?phone=6285647715796&text=Beli%0ASepatu%2
                             
 <?php endif ?>
 
-<script src="js/foto.js">
-</script>
+<script src="js/foto.js"></script>
 </body>
 </html>

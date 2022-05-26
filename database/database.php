@@ -432,7 +432,7 @@ $sepatu  = array(
 
       // sup pres
     ["gambar"=>"sup-pres.jpg",
-    "merek" => "Sepatu Pria Wanita Sepatu Sneakers Pria Sepatu joging Pria Sepatu Cwok Cewk Sepatu Sneakers SUP PRES",
+    "merek" => "Sepatu joging Pria Sepatu Cwok Cewk Sepatu Sneakers SUP PRES",
     "harga"=> "37000",
     "ukuran" => ["38","39","40","41","42","43"],
     "des" => '<p><span style="background-color: white; color: rgba(0, 0, 0, 0.8); font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif; font-size: 14px; white-space: pre-wrap;">redi size; 39/40/41/42/43/
@@ -574,7 +574,7 @@ $sepatu  = array(
     
     Yuks... Kami tunggu ya orderan kamu🥰🥰🥰🥰</span></p>'],
 
-
+      // kasual
     ["gambar"=>"kasual.jpg",
     "merek" => "MKT , SEPATU SNEAKERS WANITA / PEREMPUAN KASUAL TRENDY FASHION NYAMAN SW01-7034",
     "harga"=> "39600",

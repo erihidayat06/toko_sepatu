@@ -39,7 +39,7 @@
             <ul>
                 <li><a href="?page=home" class="aktiv">home</a></li>
                 <li><a href="?page=about">about</a></li>
-                <li class="lokasi"><a href=""><img src="img/lokasi.png" alt=""></a></li>
+                <li class="lokasi"><a target="_blank" href="https://goo.gl/maps/r5PYXZARUXJ3q43t9"><img src="img/lokasi.png" alt=""></a></li>
             </ul>
     </div>
 </div>

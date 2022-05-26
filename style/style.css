@@ -11,6 +11,20 @@ body {
 
 /* CSS INDEX */
 
+/* scroll */
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  height: 10px;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f6f6f6;
+}
+/* akhir scroll */
+
 /* NAVBAR */
 /* CSS Tampilan */
 
@@ -451,10 +465,10 @@ body {
 }
 .foto .container {
   width: 800px;
-  height: 500px;
+  height: 540px;
   position: fixed;
   background-color: #ffffff;
-  top: 20px;
+  top: 5px;
   left: 220px;
   right: 50px;
   bottom: 50px;
@@ -462,7 +476,7 @@ body {
 }
 
 .foto .container .box img {
-  width: 500px;
-  height: 500px;
+  width: 540px;
+  height: 540px;
 }
 /* Akhir CSS Tampilan */
