@@ -502,7 +502,7 @@ body {
 }
 .about .container .teks-about p {
   margin: auto;
-  width: 80%;
+  width: 70%;
   text-align: center;
   margin-top: 20px;
 }
@@ -518,11 +518,27 @@ body {
 }
 
 .about .misi ul {
+  color: #ffff;
+  border-radius: 10px;
   padding: 0;
   width: 80%;
   margin: auto;
+  margin-top: 100px;
   padding: 10px;
-  background-color: #e1e1e1;
+  background-color: #2f2f2f;
+}
+
+.about .misi ul h1 {
+  color: black;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  width: 70%;
+  background-color: #d0d0d0;
+}
+
+.about .misi ul b {
+  font-size: 30px;
 }
 
 .about li {

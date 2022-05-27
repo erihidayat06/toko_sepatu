@@ -28,6 +28,7 @@
         </div>
         <div class="misi">
             <ul>
+                <li><h1>MISI dan VISI</h1></li>
                 <li>
                     <b>MISI</b>
                     <p>Menjalin kemitraan kerja sama dengan pemasok dan penyalur yang saling menguntungkan.</p>
