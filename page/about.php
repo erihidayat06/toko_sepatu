@@ -7,13 +7,47 @@
     <title>Document</title>
 </head>
 <body>
+
 <div class="about">
-<h1>ini about</h1>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.54231961299715!2d109.15068780669525!3d-6.929143029163966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1653587107546!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container">
+        <div class="teks-about">
+            <h1>ABOUT</h1>
+            <p>Sebagian besar orang membeli sepatu melalui toko sepatu atau distributor sepatu di per­
+            tokoan atau pun pusat perbelanjaan, Namun sistem pembelian di toko sepatu kebanyakan masih 
+            belum efektif, karena penjual masih mencatat data stok sepatu dan menghitung harga 
+            sepasang sepatu dengan cara manual, sehingga di saat terjadi pembelian sepatu 
+            dengan model yang berbeda-beda dan jumlah yang banyak, 
+            terkadang sering terjadi salah perhitungan sehingga mengakibatkan admin toko sering kebin­
+            gungan. Dengan dibuatnya database toko sepatu ini diharapkan dapat memudahkan dalam
+            mengetahui jumlah sepatu yang terjual dan stok yang tersedia di gudang.</p>
+
+            <p>sebuah usaha minimalis yang kami buat untuk menyediakan produk dari 
+            produsen lokal yang mendedikasikan harapannya untuk memperkenalkan 
+            produk dalam negri agar lebih dihargai dan diminati. kami berterima kasih 
+            kepada pelanggan setia yang telah percaya dengan produk yang kami sediakan</p>
+        </div>
+        <div class="misi">
+            <ul>
+                <li>
+                    <b>MISI</b>
+                    <p>Menjalin kemitraan kerja sama dengan pemasok dan penyalur yang saling menguntungkan.</p>
+                    <p>Menjaga konsistensi dan kualitas setiap sepatu yang dijual</p>
+                    <p>Memberikan pelayanan optimal kepada konsumen dan mengutamakan kepuasan konsumen</p>
+                </li>
+                <li>
+                    <b>VISI</b>
+                    <p>Menjadi perusahaan toko sepatu yang senantiasa mampu bersaing serta memberikan produk kualitas terbaik dan mengutamakan kepuasan pelayanan yang diberikan kepada pelanggan.</p>
+                </li>
+            </ul>
+                
+        </div>
+        </div>
+    </div>
 </div>
+<!-- about -->
+
 <!-- footer -->
 <div class="clear">
-
     <div class="footer">
         <div class="container">
             <div class="tentang-kami">
