@@ -341,8 +341,8 @@ body {
   cursor: pointer;
   margin-top: 10px;
   float: left;
-  width: 490px;
-  height: 490px;
+  width: 500px;
+  height: 500px;
 }
 
 .prodak .container ul {
@@ -431,6 +431,7 @@ body {
   background-color: #ffffff;
   width: 1190px;
   margin: auto;
+  margin-bottom: 5px;
   padding: 20px;
   border-radius: 3px;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
@@ -465,10 +466,10 @@ body {
 }
 .foto .container {
   width: 800px;
-  height: 540px;
+  height: 550px;
   position: fixed;
   background-color: #ffffff;
-  top: 5px;
+  top: 0;
   left: 220px;
   right: 50px;
   bottom: 50px;
@@ -476,7 +477,70 @@ body {
 }
 
 .foto .container .box img {
-  width: 540px;
-  height: 540px;
+  width: 550px;
+  height: 550px;
 }
 /* Akhir CSS Tampilan */
+
+/* about */
+.about {
+  margin-top: 60px;
+}
+/* akhir abot */
+
+/* footer */
+.footer {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.footer .container {
+  margin-top: 20px;
+  border-top: 3px solid #ff5050;
+  height: 440px;
+  background-color: #393939;
+}
+
+.footer .container .tentang-kami {
+  float: left;
+  margin-right: 20px;
+}
+
+.footer .container .hubungi {
+  float: left;
+}
+
+.footer .container .alamat {
+  float: left;
+}
+
+.footer .container ul {
+  color: #ffffff;
+}
+
+.footer .container li {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.footer .container li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer .container li a:hover {
+  color: #ff5050;
+}
+
+.footer .container li a:active {
+  color: #ff5050;
+}
+
+.footer .container p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  float: left;
+}
+/* akhir footer */

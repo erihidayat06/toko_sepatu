@@ -63,5 +63,54 @@ endforeach;
 </div>
 <!-- akhir barang -->
 
+<!-- footer -->
+<div class="clear">
+
+    <div class="footer">
+        <div class="container">
+            <div class="tentang-kami">
+                <ul>
+                    <b>TENTANG KAMI</b> 
+                    <li>
+                       <a href=""> About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hubungi">
+                <ul>
+                    <b>HUBUNGI KAMI</b>
+                    <li>
+                       <a href="">Facebook</a> 
+                    </li>
+                    <li>
+                       <a href="">Instagram</a> 
+                    </li>
+                    <li>
+                       <a href="">Whatsapp</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="clear">
+            <div class="alamat">
+                
+                <ul>
+                <b>ALAMAT</b>
+               
+                    <li>
+                    <iframe src= "<?= $alamat ?>"></iframe>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="clear">
+            <ul>
+            <p>&copy 2022 kelompok 4</p>
+            </ul>
+            </div>
+        </div>  
+    </div>
+</div>
+<!-- akhir footer -->
+
 </body>
 </html>

@@ -47,7 +47,6 @@
 
 <!-- class container untuk isi halaman -->
 <div class="container">
-
 <!--  -->
 
 
@@ -79,7 +78,10 @@
     
     
     ?>
+    
 </div>
+
+
 
 </body>
 </html>
