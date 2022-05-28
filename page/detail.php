@@ -35,6 +35,7 @@ if (!isset($sepatu[$_GET['id']])) {
 
 // mengambil data dari variable global yang dikirim dari home.php
 $spt = $sepatu[$_GET['id']];
+$hargaAsli = $spt['harga'];
 $harga = $spt['harga'];
 $text_harga = number_format($harga,0,',','.');
 $merek = $spt['merek'];
@@ -85,22 +86,23 @@ $des = $spt['des'];
                         
                             <!-- sebagai radio button untuk memilih ukuran -->
                         <label for="<?=$ukuran?>"><input class="ukuran" type="radio" name="ukuran" value="<?=$ukuran?>" id="<?=$ukuran?>"><span class="tombol-ukuran"><?=$ukuran?></span>  </label> &nbsp;&nbsp;
-                       
+                
                         <?php endforeach ?>
                             <label for="jumlah" class="nomer">Jumlah : <br>
-                            <input type="number" id="jumlah" name="jumlah" value="1"></label>
-                            <button type="submit" onclick="return confirm('Lanjut Beli')">BELI</button>
+                            <input type="number" id="jumlah" name="jumlah"  value="1"></label>
+
                             
-            
+                            <div class="jumlah">
+                            <button type="submit" id="beli">BELI</button>
                         </form>
+
+
                         <!-- Kahir form pilihan Ukuran -->
 
                         </div>
                         <script src="js/script.js"></script>
                          
-                        <?php
-                        
-
+                        <?php  
                         // mengambil data merek
                         $merek = $spt['merek']; 
 
@@ -122,13 +124,14 @@ $des = $spt['des'];
                             if ($jumlah < 1) {
                                 echo"<script>alert('Jumlah tidak boleh kurang dari 1');</script>";
                             }
-
+            
                             // menghitung jumlah total hitung
-                            $tot_harga = $spt['harga'] * $jumlah;
+                            $tot_harga = $harga * $jumlah;
                             $tot_harga = number_format($tot_harga,0,',','.');
                         }else{
                             $ukuran = "merek tidak diketahui";
                         }
+                            
                         ?>             
                     </li>
                 </ul>  
@@ -151,19 +154,51 @@ $des = $spt['des'];
 </div>
 <!-- akhir Deskripsi -->
 
-<!-- Liat Foto -->
 
 
-<!-- jika $_POST['ukuran'] memiliki nilai maka akan di alihkan ke link whatsapp -->
+<!-- jika $_POST['ukuran'] dan $_POST['jumlah']) memiliki nilai maka akan di alihkan ke link whatsapp -->
 <?php if (isset($_POST['ukuran']) and ($_POST['jumlah'])) :
+// link whatsapp
 $lokasi ="https://api.whatsapp.com/send?phone=6285647715796&text=Beli%0ASepatu%20:%20$merek%0AUkuran%20:%20$ukuran%0AHarga%20:%20$text_harga%0AJumlah%20:%20$jumlah%0ATotal%20Harga%20:%20$tot_harga";
+
+// jika $jumlah lebih dari 1 maka clas pembelian muncul
+if ($jumlah > 0) :
 ?>
 
-<!-- mengalihkan halaman ke whatsapp -->
-<script>window.location="<?= $lokasi ?>";</script>
-                            
+        <!-- backgron kembali -->
+        <div class="tidak-jadi" id="tidak-jadi">
+            <div class="container"></div>
+        </div>
+        <!-- tampilan detail pembelian -->
+        <div class="pembelian" id="pembelian">
+            <div class="container">
+                <h4>MEREK</h4>
+                <h2><?= $merek ?></h2>
+                <h4>UKURAN</h4>
+                <h2><?= $ukuran ?></h2>
+                <h4>HARGA</h4>
+                <h2><?= $text_harga ?></h2>
+                <h4>JUMLAH</h4>
+                <h2><?= $jumlah?></h2>
+                <h4>TOTAL </h4>
+                <h2><?= $tot_harga?></h2> 
+                <div class="tombol">
+                <li><a href="<?= $lokasi ?>"><button>LANJUT</button></a></li>
+                <li><button id="tidak">KEMBALI</button> </li>
+                </div> 
+            </div>
+        </div>
 <?php endif ?>
 
+<!-- mengalihkan halaman ke whatsapp -->                       
+<?php endif ?>
+
+<!-- script foto.js -->
 <script src="js/foto.js"></script>
+
+<!-- script beli.js -->
+<script src="js/beli.js"></script>
+
+
 </body>
 </html>

@@ -23,7 +23,7 @@ $i = 0;
 <div class="jumbotron">
     <div class="container">
             <h1>SELAMAT DATANG</h1>
-            <p>Toko Sepatu kelompok 4 yang keren</p>
+            <p>TOKO SEPATU <img src="img/logo.png" alt="" width="90px" height="20px"> OFFICIAL</p>
         <div class="border">
             
 
@@ -65,7 +65,6 @@ endforeach;
 
 <!-- footer -->
 <div class="clear">
-
     <div class="footer">
         <div class="container">
             <div class="tentang-kami">

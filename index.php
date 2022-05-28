@@ -34,7 +34,7 @@
     <div class="container">
         <div class="waiper">
             <div class="logo">
-                <h1>TOKSEP</h1>
+                <img src="img/logo.png" alt="">
             </div>
             <ul>
                 <li><a href="?page=home" class="aktiv">home</a></li>
