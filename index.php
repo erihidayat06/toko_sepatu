@@ -34,7 +34,7 @@
     <div class="container">
         <div class="waiper">
             <div class="logo">
-                <img src="img/logo.png" alt="">
+                <a href="?page=home"><img src="img/logo.png" alt=""></a>
             </div>
             <ul>
                 <li><a href="?page=home" class="aktiv">home</a></li>

@@ -158,14 +158,14 @@ $sepatu  = array(
     // retro hitam putih
     ["gambar"=>"retro hitam putih.jpg",
     "merek" => "Sepatu lexa retro warna hitam putih",
-    "harga"=> "7500000",
+    "harga"=> "750000",
     "ukuran" => ["38","39","40"],
     "des" => ''],
 
     // retro hitam
     ["gambar"=>"retro hitam.jpg",
     "merek" => "Sepatu lexa retro warna hitam",
-    "harga"=> "7500000",
+    "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
     "des" => ''],
 
