@@ -55,7 +55,7 @@
                 <ul>
                     <b>TENTANG KAMI</b> 
                     <li>
-                       <a href="">About</a> 
+                       <a href="?page=about">About</a> 
                     </li>
                 </ul>
             </div>

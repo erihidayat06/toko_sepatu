@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +17,7 @@
         }elseif($p == 'detail'){
             echo $_GET['merek'];
         }else {
-            echo "Halaman Tidak Ditemukan";
+            echo "Pusat toko sepatu";
         } 
         ?>
     </title>
@@ -30,6 +28,7 @@
 </head>
 <body>
 
+<!-- Awal Navbar -->
 <div class="nav">
     <div class="container">
         <div class="waiper">
@@ -45,11 +44,11 @@
 </div>
 </div>
 
+<!-- Akhie Navbar -->
+
+
 <!-- class container untuk isi halaman -->
 <div class="container">
-<!--  -->
-
-
 
     <!-- include halaman  -->
     <?php
@@ -82,7 +81,7 @@
      
 </div>
 
-
+<!-- Akhir isi halaman -->
 
 </body>
 </html>
