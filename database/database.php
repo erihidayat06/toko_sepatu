@@ -10,6 +10,11 @@ color: #ff5050;
  }
 </style>";
 
+
+$des_retro = '<p><span color="rgba(0, 0, 0, 0.8)" face="Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif" style="background-color: white; font-size: 14px; white-space: pre-wrap;">"lexa retro 1.0"</span></p><p><span color="rgba(0, 0, 0, 0.8)" face="Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif" style="background-color: white; font-size: 14px; white-space: pre-wrap;">Tema utama "lexa retro 1.0"</span><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">,</span><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">menggambarkan era masa lalu  </span><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">ketika para manusia </span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">menggunakan sepatu</span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">untuk berpergian ataupun bekerja.</span><span style="background-color: white; font-size: 14px; white-space: pre-wrap;"> untuk membawa imajinasi ke masa lalu lexa</span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">membuat produk pertamanya</span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">dengan sepatu seperti masa lalu</span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">degan model dan warna warna yang lebih modern.</span></p>';
+
+$des_air = '<p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">lexa ingin dengan antusias mempersembahkan </span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">koleksi spesialnya dengan merilis koleksi " lexa air " kami.</span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;"> Lexa air hadir dengan model yang nyaman di pakai outdoor dan olahraga. </span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">lexa air mengandung perpaduan warna yang serasi </span></p><p><span style="background-color: white; font-size: 14px; white-space: pre-wrap;">dengan sentuhan elegan</span></p>';
+
 // database untuk barang
 $sepatu  = array(
     // lexa
@@ -17,50 +22,21 @@ $sepatu  = array(
     "merek" => "Sepatu LEXA 1gc 5" ,
     "harga"=> "500000",
     "ukuran" => ["38","39","40","41","42"], 
-    "des" => '<p>&nbsp;<span style="background-color: white; color: rgba(0, 0, 0, 0.8); font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif; font-size: 14px; white-space: pre-wrap;">KETERANGAN PRODUK</span></p><span style="background-color: white; color: rgba(0, 0, 0, 0.8); font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif; font-size: 14px; white-space: pre-wrap;">- size/ukuran 31-43
-    - kualitas terbaik dan terjamin 
-    - Sol PVC
-    - terbuat dari bahan rajut import terbaik pilihan yang di lengkapi dengan outsol yang ringan nyaman dan tidak licin sehingga nyaman sa.at di pakai
-
-    KELENGKAPAN
-    - PAKING RAPI DAN AMAN
-
-    Catatan
-    - welcome reseller/dropshipper silahkan bergabung🤗
-
-    🤗🙏bee smart buying🤗 terimakasih kaki</span>'],
+    "des" => $des_retro],
     
     // lexa biru
     ["gambar"=>"lexa air biru.JPG",
     "merek" => "Sepatu lexa air 0.1 warna biru" ,
     "harga"=> "500000",
     "ukuran" => ["38","39","40","41","42","43"], 
-    "des" => ''],
+    "des" => $des_air],
 
     // lexa air kuning
     ["gambar"=>"lexa air kuning.jpg",
     "merek" => " Sepatu lexa air 0.1 warna kuning" ,
     "harga"=> "500000",
     "ukuran" => ["38","39","40","41","42","43"], 
-    "des" => '<p><span style="background-color: white; color: rgba(0, 0, 0, 0.8); font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif; font-size: 14px; white-space: pre-wrap;">READY STOCK,
-    SEPATU VANS OLDSKOOL
-    
-    DESKRIPSI PRODUK
-    *Model           : vans old skool
-    *Warna            : hitam putih classic
-    *Status stock : SELALU READY
-    __________________________________________________
-    *DETAIL UKURAN SEPATU VANS OLD SKOOL:
-    36= 23 cm
-    37=23.5 cm
-    38= 24 cm
-    39= 25 cm
-    40= 25,5 cm
-    41= 26,5 cm
-    42= 27 cm
-    43= 28 cm
-    *DISARANKAN menaikan 1 ukuran dari ukuran sepatu yg biasa kamu pakai
-    #vans #sepatuvans #vansoldskool #vansoldschool #vanshitam #vansoriginal #vansori #vanspremium #vansimport #vansblack #vanswhite #oldskool #vansputih #vansgradeori #vansgradeoriginal #sepatusekolah #vanscowok #vanscewek</span></p>'],
+    "des" => $des_air],
 
 
     // lexa air merah
@@ -68,120 +44,91 @@ $sepatu  = array(
     "merek" => "Sepatu lexa air 1.0 warna merah" ,
     "harga"=> "500000",
     "ukuran" => ["36","37","38","39","40"], 
-    "des" => '<p><span style="background-color: white; color: rgba(0, 0, 0, 0.8); font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, 文泉驛正黑, &quot;WenQuanYi Zen Hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;儷黑 Pro&quot;, &quot;LiHei Pro&quot;, &quot;Heiti TC&quot;, 微軟正黑體, &quot;Microsoft JhengHei UI&quot;, &quot;Microsoft JhengHei&quot;, sans-serif; font-size: 14px; white-space: pre-wrap;">Sebelum Melakukan pemesanan, Mohon untuk baca dulu ya, karena kami tidak berharap untuk mengecewakan pelanggan kami. Selama barang masih ada postingannya berarti stock produk tersebut ready, jadi bisa di order lansung. Untuk pemesanan jika ada pilihan opsi warna dimohon untuk mencantumkan keterangan warna dan opsi jika warna kosong atau (Hubungi CS). Terima Kasih
-
-    bahan sintetis 
-    
-    warna :                                                                                                                                                                                                                  - putih pink                                                                                                                                                                                                           - putih abu                                                                                                                                                                                                                - putih kuning                                                                                                                                                                                                           - putih hitam
-    
-    ukuran 36-40
-    36=23cm
-    37 = 23,5 cm
-    38 = 24 cm
-    39 = 24,5 cm
-    40 = 25 c
-     
-    Tinggi sol 5 cm 
-    
-    MOHON DI PERHATIKAN (MEMBELI = SETUJU)                                                                                                                                  1. Pesanan sudah kami QC baik jumlah maupun kualitas                                                                                                                     2. Kerusakan/kehilangan paket dlm pengiriman diluar tanggung jawab kami                                                                                3. Di tunggu order berikutnya ajakin temen dan keluarga ya!                                                                                                             4. Tidak menerima complain kurang barang tanpa ada bukti video pada saat membuka paket
-    5. No return no complain (kecuali salah variasi)
-    6.*SARAN ; HARAP NAIKAN 1 SIZE DARI UKURAN YANG DI PAKAI
-    6. Cek Kembali UKURAN SEPATU, WARNA, VARIASI ,ALAMAT, DAN NAMA sebelum memesan 
-    
-    Terima kasih.
-    
-    ~~&gt;&gt;&gt;&gt; Kepuasan pelanggan adalah tujuan utama kami &lt;&lt;&lt;&lt;~~                                                                                                           ~~&gt;&gt;&gt;&gt;&gt;&gt; Terima Kasih Atas Kunjungan Anda &lt;&lt;&lt;&lt;&lt;&lt;~~
-    
-    
-    #sepatukasual #sepatufashion
-    #sneakerswanita #sneakerspria 
-    #sneakerscewek #sneakerscowok 
-    #sneakers #sepatu #sepatufashion
-    #sepatumurah #sepatuimport #sepatuoriginal </span></p>'],
+    "des" => $des_air],
 
     // lexa 
     ["gambar"=>"rertro biru muda.jpg",
     "merek" => "Sepatu lexa retro warna biru muda" ,
     "harga"=> "750000",
     "ukuran" => ["36","37","38","39","40"], 
-    "des" => ''],
+    "des" => $des_retro],
 
     // retro biru hitam
     ["gambar"=>"retro biru hitam.jpg",
     "merek" => "Sepatu lexa retro warna biru hitam" ,
     "harga"=> "750000",
     "ukuran" => ["36","37","38","39","40","41","42","43"], 
-    "des" => ''],
+    "des" => $des_retro],
 
     // Sepatu lexa retro hitam coklat
     ["gambar"=>"retro hitam coklat.jpg",
     "merek" => "Sepatu lexa retro warna hitam coklat" ,
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"], 
-    "des" => ''],
+    "des" => $des_retro],
 
     // Sepatu lexa retro coklat
     ["gambar"=>"retro coklat.jpg",
     "merek" => "Sepatu lexa retro warna coklat",
     "harga"=> "750000",
     "ukuran" => ["39","40","41","42","43"], 
-    "des" => ''],
+    "des" => $des_retro],
     
     // Sepatu lexa retro
     ["gambar"=>"retro grey.jpg",
     "merek" => "Sepatu lexa retro warna grey",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43","44"],
-    "des" => ''],
+    "des" => $des_retro],
 
     // retro hijau
     ["gambar"=>"retro hijau.jpg",
     "merek" => "Sepatu lexa retro warna hijau",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"],
-    "des" => ''],
+    "des" => $des_retro],
 
     // retro biru
     ["gambar"=>"retro biru tua.jpg",
     "merek" => "Sepatu lexa retro warna biru tua",
     "harga"=> "750000",
     "ukuran" => ["39","40","41","42","43"],
-    "des" => ''],
+    "des" => $des_retro],
 
     // retro hitam merah
     ["gambar"=>"retro hitam merah.jpg",
     "merek" => "Sepatu lexa retro warna hitam merah",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
-    "des" => ''],
+    "des" => $des_retro],
 
     // retro hitam putih
     ["gambar"=>"retro hitam putih.jpg",
     "merek" => "Sepatu lexa retro warna hitam putih",
     "harga"=> "750000",
     "ukuran" => ["38","39","40"],
-    "des" => ''],
+    "des" => $des_retro],
 
     // retro hitam
     ["gambar"=>"retro hitam.jpg",
     "merek" => "Sepatu lexa retro warna hitam",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
-    "des" => ''],
+    "des" => $des_retro],
 
       // retro kuning
     ["gambar"=>"retro kuning.jpg",
     "merek" => "Sepatu lexa retro warna kunung",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"],
-    "des" => ''],
+    "des" => $des_retro],
 
       // retro merah hitam
     ["gambar"=>"retro merah hitam.jpg",
     "merek" => "Sepatu lexa retro warna merah hitam",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
-    "des" => ''],
+    "des" => $des_retro],
 
 
       // retro merah
@@ -189,7 +136,7 @@ $sepatu  = array(
     "merek" => "Sepatu lexa retro warna merah",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"],
-    "des" => ''],
+    "des" => $des_retro],
 
 );
 
