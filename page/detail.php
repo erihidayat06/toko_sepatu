@@ -1,7 +1,7 @@
 <?php
 
 // Jika nilai $_GET['id'] tidak ada maka akan di kembalikan ke index.php kemudia program detail.php akan di hentikan
-if ( !isset($_GET['id'])) {
+if ( !isset($_GET['id']) || !isset($_GET['merek'])) {
    header("Location: index.php");
    exit;
 }

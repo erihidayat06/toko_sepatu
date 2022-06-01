@@ -19,21 +19,21 @@ $des_air = '<p><span style="background-color: white; font-size: 14px; white-spac
 $sepatu  = array(
     // lexa
     ["gambar"=>"lexa.jpg",
-    "merek" => "Sepatu LEXA 1gc 5" ,
+    "merek" => "Sepatu LEXA RETRO 1.0 - GCBP" ,
     "harga"=> "500000",
     "ukuran" => ["38","39","40","41","42"], 
     "des" => $des_retro],
     
     // lexa biru
     ["gambar"=>"lexa air biru.JPG",
-    "merek" => "Sepatu lexa air 0.1 warna biru" ,
+    "merek" => "Sepatu lexa air - BBR " ,
     "harga"=> "500000",
     "ukuran" => ["38","39","40","41","42","43"], 
     "des" => $des_air],
 
     // lexa air kuning
     ["gambar"=>"lexa air kuning.jpg",
-    "merek" => " Sepatu lexa air 0.1 warna kuning" ,
+    "merek" => " Sepatu lexa air - YRBR " ,
     "harga"=> "500000",
     "ukuran" => ["38","39","40","41","42","43"], 
     "des" => $des_air],
@@ -41,91 +41,91 @@ $sepatu  = array(
 
     // lexa air merah
     ["gambar"=>"lexa air merah.jpg",
-    "merek" => "Sepatu lexa air 1.0 warna merah" ,
+    "merek" => "Sepatu lexa air - BRR " ,
     "harga"=> "500000",
     "ukuran" => ["36","37","38","39","40"], 
     "des" => $des_air],
 
     // lexa 
     ["gambar"=>"rertro biru muda.jpg",
-    "merek" => "Sepatu lexa retro warna biru muda" ,
+    "merek" => "Sepatu lexa retro - GCG " ,
     "harga"=> "750000",
     "ukuran" => ["36","37","38","39","40"], 
     "des" => $des_retro],
 
     // retro biru hitam
     ["gambar"=>"retro biru hitam.jpg",
-    "merek" => "Sepatu lexa retro warna biru hitam" ,
+    "merek" => "Sepatu lexa retro 1.0 - GCBB " ,
     "harga"=> "750000",
     "ukuran" => ["36","37","38","39","40","41","42","43"], 
     "des" => $des_retro],
 
     // Sepatu lexa retro hitam coklat
     ["gambar"=>"retro hitam coklat.jpg",
-    "merek" => "Sepatu lexa retro warna hitam coklat" ,
+    "merek" => "Sepatu lexa retro 1.0 SCBB " ,
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"], 
     "des" => $des_retro],
 
     // Sepatu lexa retro coklat
     ["gambar"=>"retro coklat.jpg",
-    "merek" => "Sepatu lexa retro warna coklat",
+    "merek" => "Sepatu lexa retro 1.0 GCBB ",
     "harga"=> "750000",
     "ukuran" => ["39","40","41","42","43"], 
     "des" => $des_retro],
     
     // Sepatu lexa retro
     ["gambar"=>"retro grey.jpg",
-    "merek" => "Sepatu lexa retro warna grey",
+    "merek" => "Sepatu lexa retro - 1.0 SCBN ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43","44"],
     "des" => $des_retro],
 
     // retro hijau
     ["gambar"=>"retro hijau.jpg",
-    "merek" => "Sepatu lexa retro warna hijau",
+    "merek" => "Sepatu lexa retro - 1.0 SCG ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"],
     "des" => $des_retro],
 
     // retro biru
     ["gambar"=>"retro biru tua.jpg",
-    "merek" => "Sepatu lexa retro warna biru tua",
+    "merek" => "Sepatu lexa retro - SCB ",
     "harga"=> "750000",
     "ukuran" => ["39","40","41","42","43"],
     "des" => $des_retro],
 
     // retro hitam merah
     ["gambar"=>"retro hitam merah.jpg",
-    "merek" => "Sepatu lexa retro warna hitam merah",
+    "merek" => "Sepatu lexa retro 1.0 - SCBBR ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
     "des" => $des_retro],
 
     // retro hitam putih
     ["gambar"=>"retro hitam putih.jpg",
-    "merek" => "Sepatu lexa retro warna hitam putih",
+    "merek" => "Sepatu lexa retro warna 1.0 - SCBG ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40"],
     "des" => $des_retro],
 
     // retro hitam
     ["gambar"=>"retro hitam.jpg",
-    "merek" => "Sepatu lexa retro warna hitam",
+    "merek" => "Sepatu lexa retro 1.0 - SCBR ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
     "des" => $des_retro],
 
       // retro kuning
     ["gambar"=>"retro kuning.jpg",
-    "merek" => "Sepatu lexa retro warna kunung",
+    "merek" => "Sepatu lexa retro 1.0 - SCY ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"],
     "des" => $des_retro],
 
       // retro merah hitam
     ["gambar"=>"retro merah hitam.jpg",
-    "merek" => "Sepatu lexa retro warna merah hitam",
+    "merek" => "Sepatu lexa retro 1.0 - SCRB ",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42"],
     "des" => $des_retro],
@@ -133,7 +133,7 @@ $sepatu  = array(
 
       // retro merah
     ["gambar"=>"retro merah.jpg",
-    "merek" => "Sepatu lexa retro warna merah",
+    "merek" => "Sepatu lexa retro 1.0 - SCR",
     "harga"=> "750000",
     "ukuran" => ["38","39","40","41","42","43"],
     "des" => $des_retro],

@@ -15,7 +15,12 @@
         }elseif($p == 'about'){
             echo "Tentang kami";
         }elseif($p == 'detail'){
-            echo $_GET['merek'];
+            if (isset($_GET['merek'])) {
+                echo $_GET['merek'];
+            }else{
+                echo "Barang Tidak Ditemukan";
+            }
+            
         }else {
             echo "Pusat toko sepatu";
         } 
